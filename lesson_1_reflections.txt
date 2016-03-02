@@ -1,23 +1,19 @@
-Used built in command in linux to find the difference betweek two file. giff -u
+Built in command in linux to find the difference betweek two file. giff -u
 
 -u is the unified diff display option
 
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-
 Commits represent logical changes
 
-git log, lists all the commits ever mad, with an ID and a description
+git log  {lists all the commits ever made, with an commit_id and a description}
 
-git diff id_1 id_2
+git diff {commit_id_1 commit_id_2}
 
-
-git diff operates on commits
+git diff {operates on commits}
 
 
 If you have multiple files you want to track together, its called a repository.
 
-git log --s (gives some statistics, notable +++-------- how much code was added and removed)
+git log --s {shows all commits, -s gives some statistics, notably +++-------- how much code was added and removed}
 
-
-git checkout (temporarily restore a file to how it was)
+git checkout commit_id {temporarily restore a file to how it was}

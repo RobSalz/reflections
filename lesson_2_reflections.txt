@@ -1,1 +1,21 @@
 Lesson 2 reflections
+
+git add {adds changes in the working directory to the stagin area to be commited}
+
+git commit -m "commit descrption" {commits the changes that have been staged}
+
+git diff {difference between working directory and the staging area}
+
+git diff --staged {differecne between staged files and last commit}
+
+git reset --hard {revert back to the last commit CAREFULL, will lose all staged and changed work in your working directory}
+
+git log --graph --oneline branch1 branch2 {shows you the different branches being worked on}
+
+git checkout -b new_branch_name {create branch and check it out}
+
+Detached head state, if you checkout a previous commit and edit it. those edits will be lost unless you run the above command that will create a new branch with those changes
+
+when you merge a branch into master, the commits are interleaved based on the date the changes were commited
+
+git show commit_id {if you just want to see the changes between a commit and its parent}
